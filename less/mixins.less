@@ -1,0 +1,28 @@
+/* Mixins */
+
+// No paramétricos
+
+.boton {
+	width: auto;
+	padding: 16px 32px;
+	background-color: @featured-color;
+	border-radius: 5px;
+	color: @background-color-1;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.seccion {
+	width: 100%;
+	padding: 60px 30px;
+	display: inline-block;
+}
+
+// Paramétrico
+
+.font-size(@size) {
+	@rem: @size / 16;
+	font-size: @size * 1px;
+	font-size: @rem * 1rem;
+}

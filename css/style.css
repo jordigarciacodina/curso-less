@@ -1,0 +1,156 @@
+/* Variables */
+/* Mixins */
+.boton {
+  width: auto;
+  padding: 16px 32px;
+  background-color: #88b04b;
+  border-radius: 5px;
+  color: #fff;
+}
+.boton:hover {
+  text-decoration: none;
+}
+.seccion {
+  width: 100%;
+  padding: 60px 30px;
+  display: inline-block;
+}
+/* General */
+body {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+a {
+  color: #88b04b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Header */
+#main-header {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+#main-header h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+#main-header p {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+/* Content */
+#main-content {
+  width: 100%;
+  display: inline-block;
+}
+.hero {
+  text-align: center;
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 60px 30px;
+  display: inline-block;
+}
+.hero .hero-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+.hero .cta {
+  padding-top: 30px;
+}
+.hero .button {
+  width: auto;
+  padding: 16px 32px;
+  background-color: #88b04b;
+  border-radius: 5px;
+  color: #fff;
+}
+.hero .button:hover {
+  text-decoration: none;
+}
+.features {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  padding: 60px 30px;
+  display: inline-block;
+}
+.features .features-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.features .features-content .feature {
+  float: left;
+  width: 33%;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.pricing {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.pricing .pricing-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 60px 30px;
+  display: inline-block;
+}
+.pricing .pricing-content .priing-level {
+  float: left;
+  width: 30%;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #88b04b;
+  margin: 0 15px;
+}
+.pricing .pricing-content .priing-level .level-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  font-size: 1.5625rem;
+}
+.pricing .pricing-content .priing-level .amount {
+  font-size: 40px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 15px;
+}
+.pricing .pricing-content .priing-level ul {
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+.pricing .pricing-content .priing-level ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+/* Footer */
+#main-footer {
+  width: 100%;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+#main-footer p {
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
